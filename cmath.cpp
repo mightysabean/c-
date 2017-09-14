@@ -19,9 +19,9 @@ void setrounding();
 
 int main()
 {
-	cout << "Enter Number";
+	cout << "Enter Number ";
 	cin >> numbr;
-	fesetround(FE_UPWARD);
+	fesetround(FE_DOWNWARD);
 	printf("Rounding is \n");
 	setrounding();
 
@@ -30,7 +30,7 @@ int main()
 }
 
 	void setrounding() {
-
+		//function with a switch statement
 
 		switch (fegetround()) {
 
