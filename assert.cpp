@@ -9,7 +9,7 @@ but it shall at least include: the expression whose assertion failed, the name o
 and the line number where it happened. A usual expression format is:
 Assertion failed: expression, file filename, line line number */
 
-void printnumber(int * choice) {
+void printnumber(int choice) {
 
 	assert(choice != NULL); //program aborts if choice is NULL
 	printf("%d \n", choice);
@@ -19,10 +19,8 @@ void printnumber(int * choice) {
 
 int main() {
 
-	int * a;
-	int b = 10;
-	int *c = NULL;
-	a = &b;
+
+	int c = NULL;
 	printnumber(c);
 
 	return 0;
