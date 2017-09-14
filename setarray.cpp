@@ -8,7 +8,7 @@ using namespace std;
 
 double arr[] = { 0.01, 0.02, 0.03, 0.04, 0.05 }; //array
 
-double& setval(int i) { //function to set values in array
+double &setval(int i) { //function to set values in array
 
 	return arr[i];
 
