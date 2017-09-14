@@ -10,10 +10,15 @@ void swap(int &x, int &y);
 
 int main() {
 
-	int a = 100;
-	int b = 50;
 
-	
+
+	int a;
+	int b;
+
+	cout << "Enter First Integer" << endl;
+	cin >> a;
+	cout << "Enter Second Integer" << endl;
+	cin >> b;
 
 	cout << "value of a before swapping is" << endl;
 	cout << a <<endl;
